@@ -13,6 +13,7 @@
 		F1DCB61A28D8EE3300FD1091 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1DCB61828D8EE3300FD1091 /* Main.storyboard */; };
 		F1DCB61C28D8EE3400FD1091 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1DCB61B28D8EE3400FD1091 /* Assets.xcassets */; };
 		F1DCB61F28D8EE3400FD1091 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1DCB61D28D8EE3400FD1091 /* LaunchScreen.storyboard */; };
+		F1DCB62728D8EF8A00FD1091 /* Inceptionv3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = F1DCB62628D8EF8A00FD1091 /* Inceptionv3.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		F1DCB61B28D8EE3400FD1091 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F1DCB61E28D8EE3400FD1091 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F1DCB62028D8EE3400FD1091 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1DCB62628D8EF8A00FD1091 /* Inceptionv3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Inceptionv3.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		F1DCB61128D8EE3300FD1091 /* hotdog-nothotdog-ios */ = {
 			isa = PBXGroup;
 			children = (
+				F1DCB62628D8EF8A00FD1091 /* Inceptionv3.mlmodel */,
 				F1DCB61228D8EE3300FD1091 /* AppDelegate.swift */,
 				F1DCB61428D8EE3300FD1091 /* SceneDelegate.swift */,
 				F1DCB61628D8EE3300FD1091 /* ViewController.swift */,
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F1DCB61728D8EE3300FD1091 /* ViewController.swift in Sources */,
+				F1DCB62728D8EF8A00FD1091 /* Inceptionv3.mlmodel in Sources */,
 				F1DCB61328D8EE3300FD1091 /* AppDelegate.swift in Sources */,
 				F1DCB61528D8EE3300FD1091 /* SceneDelegate.swift in Sources */,
 			);
