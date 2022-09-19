@@ -4,4 +4,4 @@ A CoreML vision app that selects a photo from the user's photo library and uses 
 ![Hotdog not hotdog](./docs/hotdog.gif)
 
 ## Course
-TODO
+See iOS 13 Developer Bootcamp Udemy course by Angela Yu: https://www.udemy.com/course/ios-13-app-development-bootcamp/
